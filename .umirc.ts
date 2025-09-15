@@ -31,6 +31,6 @@ export default defineConfig({
     },
   ],
   npmClient: 'pnpm',
-  // utoopack: {},
-  mako: {},
+  utoopack: {},
+  // mako: {},
 });
