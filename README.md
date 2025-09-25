@@ -17,3 +17,13 @@ pnpx next internal trace .turbopack/.trace-turbopack
 ```
 
 打开 https://trace.nextjs.org 即可。
+
+## Overrrides
+
+```json
+"pnpm": {
+  "overrides": {
+    "@utoo/pack": "link:../utoo/packages/pack"
+  }
+},
+```
