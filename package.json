@@ -14,23 +14,18 @@
   "dependencies": {
     "@ant-design/icons": "^5.0.1",
     "@ant-design/pro-components": "^2.4.4",
-    "@umijs/max": "4.5.1",
+    "@umijs/max": "4.5.1-canary.20250928.1",
     "antd": "^5.4.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
-    "@utoo/pack": "0.0.1-alpha.48",
+    "@utoo/pack": "0.0.1-alpha.52",
     "husky": "^9",
     "lint-staged": "^13.2.0",
     "prettier": "^2.8.7",
     "prettier-plugin-organize-imports": "^3.2.2",
     "prettier-plugin-packagejson": "^2.4.3",
     "typescript": "^5.0.3"
-  },
-  "pnpm": {
-    "overrides": {
-      "@utoo/pack": "0.0.1-alpha.49"
-    }
   }
 }
