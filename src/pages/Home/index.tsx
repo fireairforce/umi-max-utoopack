@@ -11,7 +11,8 @@ const HomePage: React.FC = () => {
   const { name } = useModel('global');
   return (
     <PageContainer ghost>
-      <div className=".ant-checkbox-wrapper">test style</div>
+      <div className="ant-checkbox-wrapper">test style</div>
+      <div className="ant-menu">test style2</div>
       <div className={styles.container}>
         <Guide name={trim(name)} />
       </div>
