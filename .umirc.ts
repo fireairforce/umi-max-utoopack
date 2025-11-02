@@ -9,6 +9,9 @@ export default defineConfig({
   layout: {
     title: '@umijs/max',
   },
+  alias: {
+    'test-z': '/Users/zoomdong/umi-max-app/src/pages/z.ts',
+  },
   routes: [
     {
       path: '/',

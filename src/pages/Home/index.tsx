@@ -4,7 +4,9 @@ import { PageContainer } from '@ant-design/pro-components';
 import { useModel } from '@umijs/max';
 import './global2.less';
 import styles from './index.less';
+// import { z } from 'test-z';
 
+// z
 export * from './type.d';
 
 const HomePage: React.FC = () => {
