@@ -4,10 +4,18 @@ import { PageContainer } from '@ant-design/pro-components';
 import { useModel } from '@umijs/max';
 import './global2.less';
 import styles from './index.less';
+// import path from 'path';
 // import { z } from 'test-z';
 
 // z
 export * from './type.d';
+
+// export function loadStat(name: string) {
+//   return require(require.resolve(path.join(name, 'package.json')))
+// }
+
+// const query = require(require.resolve('antd'));
+// console.log(query);
 
 const HomePage: React.FC = () => {
   const { name } = useModel('global');

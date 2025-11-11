@@ -9,9 +9,7 @@ export default defineConfig({
   layout: {
     title: '@umijs/max',
   },
-  alias: {
-    'test-z': '/Users/zoomdong/umi-max-app/src/pages/z.ts',
-  },
+  alias: {},
   routes: [
     {
       path: '/',
@@ -34,6 +32,6 @@ export default defineConfig({
     },
   ],
   npmClient: 'pnpm',
-  // utoopack: {},
+  utoopack: {},
   // mako: {},
 });
