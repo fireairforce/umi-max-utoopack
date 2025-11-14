@@ -16,10 +16,13 @@ importers:
         version: 2.8.10(antd@5.27.3(date-fns@2.30.0)(moment@2.30.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(rc-field-form@2.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@umijs/max':
         specifier: 4.0.0-canary.20251110.1
-        version: 4.0.0-canary.20251110.1(@babel/core@7.28.4)(@types/node@24.3.1)(@types/react-dom@18.3.7(@types/react@18.3.24))(@types/react@18.3.24)(@types/webpack@5.28.5)(@utoo/pack@0.0.1-alpha.68(@types/webpack@5.28.5)(webpack@5.101.3))(dva@2.5.0-beta.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lightningcss@1.22.1)(prettier@2.8.8)(rc-field-form@2.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.29.5)(sass@1.54.0)(terser@5.44.0)(type-fest@1.4.0)(typescript@5.9.2)(webpack@5.101.3)
+        version: 4.0.0-canary.20251110.1(@babel/core@7.28.4)(@types/node@24.3.1)(@types/react-dom@18.3.7(@types/react@18.3.24))(@types/react@18.3.24)(@types/webpack@5.28.5)(@utoo/pack@0.0.1-alpha.70(@types/webpack@5.28.5)(webpack@5.101.3))(dva@2.5.0-beta.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lightningcss@1.22.1)(prettier@2.8.8)(rc-field-form@2.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.29.5)(sass@1.54.0)(terser@5.44.0)(type-fest@1.4.0)(typescript@5.9.2)(webpack@5.101.3)
       antd:
         specifier: ^5.4.0
         version: 5.27.3(date-fns@2.30.0)(moment@2.30.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      github-markdown-css:
+        specifier: ^4.0.0
+        version: 4.0.0
     devDependencies:
       '@types/react':
         specifier: ^18.0.33
@@ -28,8 +31,8 @@ importers:
         specifier: ^18.0.11
         version: 18.3.7(@types/react@18.3.24)
       '@utoo/pack':
-        specifier: 0.0.1-alpha.68
-        version: 0.0.1-alpha.68(@types/webpack@5.28.5)(webpack@5.101.3)
+        specifier: 0.0.1-alpha.70
+        version: 0.0.1-alpha.70(@types/webpack@5.28.5)(webpack@5.101.3)
       husky:
         specifier: ^9
         version: 9.1.7
@@ -1681,38 +1684,38 @@ packages:
   '@umijs/zod2ts@4.0.0-canary.20251110.1':
     resolution: {integrity: sha512-a5DONSKfe4YocratlwRWYtwMdc6DiUXpXYPj7pK/XJVmtyB2CmdicvGBJ6p2bzg8tuJzVCMJq9+znBQG7DzIsQ==, tarball: https://registry.npmjs.org/@umijs/zod2ts/-/zod2ts-4.0.0-canary.20251110.1.tgz}
 
-  '@utoo/pack-darwin-arm64@0.0.1-alpha.68':
-    resolution: {integrity: sha512-CmMrjZWA+Hp8rp49zEqLne+wrxxuTUzFsvGV3q33ujGBGkly4z1ImqTIQyPUBYzr5hW+ICl8iDT3F3XZn3x84Q==, tarball: https://registry.npmjs.org/@utoo/pack-darwin-arm64/-/pack-darwin-arm64-0.0.1-alpha.68.tgz}
+  '@utoo/pack-darwin-arm64@0.0.1-alpha.70':
+    resolution: {integrity: sha512-ZEGS+967fFGTciKXTybS491z1ENIMFGJqGIfTaMOGMJR8ipqDwjCQQJWAjoYoCdEjnNYmt1zkbS2CHNgCXzE3Q==, tarball: https://registry.npmjs.org/@utoo/pack-darwin-arm64/-/pack-darwin-arm64-0.0.1-alpha.70.tgz}
     engines: {node: '>= 20'}
     cpu: [arm64]
     os: [darwin]
 
-  '@utoo/pack-darwin-x64@0.0.1-alpha.68':
-    resolution: {integrity: sha512-YD5BntLyHov5dBIEsyNX8vSJsL1Ev9ckfjT/iqj2Ep+htugJCmNZ6yRi3H4VIo/aE104e0zOdDmSrv2MjOWjSQ==, tarball: https://registry.npmjs.org/@utoo/pack-darwin-x64/-/pack-darwin-x64-0.0.1-alpha.68.tgz}
+  '@utoo/pack-darwin-x64@0.0.1-alpha.70':
+    resolution: {integrity: sha512-DB99clvBZXDPEgOzSYjuEX34xfFJj5oxaHJl90JlCltJmWKigpeJOr+ENjGUUKx5jOvkm58oCZE9mncRR0XkMw==, tarball: https://registry.npmjs.org/@utoo/pack-darwin-x64/-/pack-darwin-x64-0.0.1-alpha.70.tgz}
     engines: {node: '>= 20'}
     cpu: [x64]
     os: [darwin]
 
-  '@utoo/pack-linux-arm64-gnu@0.0.1-alpha.68':
-    resolution: {integrity: sha512-9IONF1PuNblHwMQOlnvrwxYXW1xVI2P6/X0bwwbeW8i8WDv2hxBz+3ecz9sEKyDQbOF+T78qiQ5YCbgPFqOQ9Q==, tarball: https://registry.npmjs.org/@utoo/pack-linux-arm64-gnu/-/pack-linux-arm64-gnu-0.0.1-alpha.68.tgz}
+  '@utoo/pack-linux-arm64-gnu@0.0.1-alpha.70':
+    resolution: {integrity: sha512-r1RmsyFjI4hC/kRVsN89QPWOmFIXuZyN+zZPXQJ8fqV2KvJbns/Iy+hM+FS3fK1NBeIVsZcBdWhRgVfmnBXGHw==, tarball: https://registry.npmjs.org/@utoo/pack-linux-arm64-gnu/-/pack-linux-arm64-gnu-0.0.1-alpha.70.tgz}
     engines: {node: '>= 20'}
     cpu: [arm64]
     os: [linux]
 
-  '@utoo/pack-linux-arm64-musl@0.0.1-alpha.68':
-    resolution: {integrity: sha512-jkUXJihWdSj8aMTZM4Hvrfn3XoxrKgERpxv9hrL0SKNBigE3Dp/0KBHFQAnhUqSUcWd4AVMITF2tZY0FrX4CTg==, tarball: https://registry.npmjs.org/@utoo/pack-linux-arm64-musl/-/pack-linux-arm64-musl-0.0.1-alpha.68.tgz}
+  '@utoo/pack-linux-arm64-musl@0.0.1-alpha.70':
+    resolution: {integrity: sha512-eUP7ut0g1Wg7foQ4q40nG0sLgpx63ROHskJAZYhzy4G913XJ9ucjIbPpGwY5S/ET/FqIuQkzNTiMOK5LTrQ/JA==, tarball: https://registry.npmjs.org/@utoo/pack-linux-arm64-musl/-/pack-linux-arm64-musl-0.0.1-alpha.70.tgz}
     engines: {node: '>= 20'}
     cpu: [arm64]
     os: [linux]
 
-  '@utoo/pack-linux-x64-gnu@0.0.1-alpha.68':
-    resolution: {integrity: sha512-cYliV8g/aJfTIZMy7Xyp0uD+JQemZHSa9YFRQrSrvRtVZbIGx2nwKyCwgCXOAyYREcJD9FUZkWTz6KetBVfkPg==, tarball: https://registry.npmjs.org/@utoo/pack-linux-x64-gnu/-/pack-linux-x64-gnu-0.0.1-alpha.68.tgz}
+  '@utoo/pack-linux-x64-gnu@0.0.1-alpha.70':
+    resolution: {integrity: sha512-Idz3qMgLIWYkb/CtxEjyA0G7/DJYgg6jzGdlBpg0XMbM0H7ZLwL2IVVHaCE8r1gSkLww3iRPz8mdkXpIEPfI3w==, tarball: https://registry.npmjs.org/@utoo/pack-linux-x64-gnu/-/pack-linux-x64-gnu-0.0.1-alpha.70.tgz}
     engines: {node: '>= 20'}
     cpu: [x64]
     os: [linux]
 
-  '@utoo/pack-linux-x64-musl@0.0.1-alpha.68':
-    resolution: {integrity: sha512-7VmofG2W4JswHiv/SyC5oszckTUgAX7sLY1k2OwYwkXBhpyuLkLRGtE6U+yRkSaJBCYx39gzSECNvMD3gtZBXQ==, tarball: https://registry.npmjs.org/@utoo/pack-linux-x64-musl/-/pack-linux-x64-musl-0.0.1-alpha.68.tgz}
+  '@utoo/pack-linux-x64-musl@0.0.1-alpha.70':
+    resolution: {integrity: sha512-7aiOWGf8D9XvDi1FnVIzDQ/kq98vWYO1mqLqwYAPWB4Q5grbcMaIdS7C5z4G6zWbzp77Xval4uODWbMnWRcYXw==, tarball: https://registry.npmjs.org/@utoo/pack-linux-x64-musl/-/pack-linux-x64-musl-0.0.1-alpha.70.tgz}
     engines: {node: '>= 20'}
     cpu: [x64]
     os: [linux]
@@ -1721,14 +1724,14 @@ packages:
     resolution: {integrity: sha512-CATHVePPWDirHvej0dR2x6nYPHjXgggpiMPOC846z1a9En20r3G1xrMkDBcNDbKlWJ2uF+kyR3qzcrLCCH+YCw==, tarball: https://registry.npmjs.org/@utoo/pack-shared/-/pack-shared-0.0.7.tgz}
     engines: {node: '>= 20'}
 
-  '@utoo/pack-win32-x64-msvc@0.0.1-alpha.68':
-    resolution: {integrity: sha512-RUUW2QoxzLD+DtRnjdjI5LxWDo44tRtZzLYa996iTTNROuIJqa1O6ANoUTBVEP4OiSFh68LEtSHshqB7FpTykw==, tarball: https://registry.npmjs.org/@utoo/pack-win32-x64-msvc/-/pack-win32-x64-msvc-0.0.1-alpha.68.tgz}
+  '@utoo/pack-win32-x64-msvc@0.0.1-alpha.70':
+    resolution: {integrity: sha512-niRNeR8Uiww+rmKd0alSF8+NJ/1lTReaZRlI8E/VFM4LeSKXLImmOA5OP6GyZ9QWRNTIL6jqw2RB/uvT0B0fzw==, tarball: https://registry.npmjs.org/@utoo/pack-win32-x64-msvc/-/pack-win32-x64-msvc-0.0.1-alpha.70.tgz}
     engines: {node: '>= 20'}
     cpu: [x64]
     os: [win32]
 
-  '@utoo/pack@0.0.1-alpha.68':
-    resolution: {integrity: sha512-tEQ4NcvzbuOKAUy3iKzgzFKcovRK8xS4Xn667dwlpHPI3XkvSA+Z9zBNXDzddiQ2WJwRqxF9cineIR9E85ktIg==, tarball: https://registry.npmjs.org/@utoo/pack/-/pack-0.0.1-alpha.68.tgz}
+  '@utoo/pack@0.0.1-alpha.70':
+    resolution: {integrity: sha512-Hi6F1mkWF0lN8s6K45xFQG05DY0/KQcszSaW2Y+/kN+PU4GmStdyXmNwBpTuqw100xjDJmBekyPTLlUWCUXIew==, tarball: https://registry.npmjs.org/@utoo/pack/-/pack-0.0.1-alpha.70.tgz}
     engines: {node: '>= 20'}
     peerDependencies:
       '@types/webpack': ^5.28.5
@@ -3132,6 +3135,9 @@ packages:
 
   git-hooks-list@4.1.1:
     resolution: {integrity: sha512-cmP497iLq54AZnv4YRAEMnEyQ1eIn4tGKbmswqwmFV4GBnAqE8NLtWxxdXa++AalfgL5EBH4IxTPyquEuGY/jA==, tarball: https://registry.npmjs.org/git-hooks-list/-/git-hooks-list-4.1.1.tgz}
+
+  github-markdown-css@4.0.0:
+    resolution: {integrity: sha512-mH0bcIKv4XAN0mQVokfTdKo2OD5K8WJE9+lbMdM32/q0Ie5tXgVN/2o+zvToRMxSTUuiTRcLg5hzkFfOyBYreg==, tarball: https://registry.npmjs.org/github-markdown-css/-/github-markdown-css-4.0.0.tgz}
 
   glob-parent@5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==, tarball: https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz}
@@ -8180,11 +8186,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@umijs/bundler-utoopack@4.0.0-canary.20251110.1(@types/webpack@5.28.5)(@utoo/pack@0.0.1-alpha.68(@types/webpack@5.28.5)(webpack@5.101.3))(type-fest@1.4.0)(typescript@5.9.2)(webpack@5.101.3)':
+  '@umijs/bundler-utoopack@4.0.0-canary.20251110.1(@types/webpack@5.28.5)(@utoo/pack@0.0.1-alpha.70(@types/webpack@5.28.5)(webpack@5.101.3))(type-fest@1.4.0)(typescript@5.9.2)(webpack@5.101.3)':
     dependencies:
       '@umijs/bundler-utils': 4.0.0-canary.20251110.1
       '@umijs/bundler-webpack': 4.0.0-canary.20251110.1(@types/webpack@5.28.5)(type-fest@1.4.0)(typescript@5.9.2)(webpack@5.101.3)
-      '@utoo/pack': 0.0.1-alpha.68(@types/webpack@5.28.5)(webpack@5.101.3)
+      '@utoo/pack': 0.0.1-alpha.70(@types/webpack@5.28.5)(webpack@5.101.3)
       compression: 1.8.1
       connect-history-api-fallback: 2.0.0
       cors: 2.8.5
@@ -8402,14 +8408,14 @@ snapshots:
       - typescript
       - webpack
 
-  '@umijs/max@4.0.0-canary.20251110.1(@babel/core@7.28.4)(@types/node@24.3.1)(@types/react-dom@18.3.7(@types/react@18.3.24))(@types/react@18.3.24)(@types/webpack@5.28.5)(@utoo/pack@0.0.1-alpha.68(@types/webpack@5.28.5)(webpack@5.101.3))(dva@2.5.0-beta.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lightningcss@1.22.1)(prettier@2.8.8)(rc-field-form@2.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.29.5)(sass@1.54.0)(terser@5.44.0)(type-fest@1.4.0)(typescript@5.9.2)(webpack@5.101.3)':
+  '@umijs/max@4.0.0-canary.20251110.1(@babel/core@7.28.4)(@types/node@24.3.1)(@types/react-dom@18.3.7(@types/react@18.3.24))(@types/react@18.3.24)(@types/webpack@5.28.5)(@utoo/pack@0.0.1-alpha.70(@types/webpack@5.28.5)(webpack@5.101.3))(dva@2.5.0-beta.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lightningcss@1.22.1)(prettier@2.8.8)(rc-field-form@2.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.29.5)(sass@1.54.0)(terser@5.44.0)(type-fest@1.4.0)(typescript@5.9.2)(webpack@5.101.3)':
     dependencies:
       '@umijs/lint': 4.0.0-canary.20251110.1(eslint@8.35.0)(stylelint@14.8.2)(typescript@5.9.2)
       '@umijs/plugins': 4.0.0-canary.20251110.1(@babel/core@7.28.4)(@types/react-dom@18.3.7(@types/react@18.3.24))(@types/react@18.3.24)(antd@4.24.16(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dva@2.5.0-beta.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(rc-field-form@2.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       antd: 4.24.16(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       eslint: 8.35.0
       stylelint: 14.8.2
-      umi: 4.0.0-canary.20251110.1(@babel/core@7.28.4)(@types/node@24.3.1)(@types/react@18.3.24)(@types/webpack@5.28.5)(@utoo/pack@0.0.1-alpha.68(@types/webpack@5.28.5)(webpack@5.101.3))(eslint@8.35.0)(lightningcss@1.22.1)(prettier@2.8.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.29.5)(sass@1.54.0)(stylelint@14.8.2)(terser@5.44.0)(type-fest@1.4.0)(typescript@5.9.2)(webpack@5.101.3)
+      umi: 4.0.0-canary.20251110.1(@babel/core@7.28.4)(@types/node@24.3.1)(@types/react@18.3.24)(@types/webpack@5.28.5)(@utoo/pack@0.0.1-alpha.70(@types/webpack@5.28.5)(webpack@5.101.3))(eslint@8.35.0)(lightningcss@1.22.1)(prettier@2.8.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.29.5)(sass@1.54.0)(stylelint@14.8.2)(terser@5.44.0)(type-fest@1.4.0)(typescript@5.9.2)(webpack@5.101.3)
     transitivePeerDependencies:
       - '@babel/core'
       - '@rspack/core'
@@ -8509,7 +8515,7 @@ snapshots:
       - react-native
       - supports-color
 
-  '@umijs/preset-umi@4.0.0-canary.20251110.1(@types/node@24.3.1)(@types/react@18.3.24)(@types/webpack@5.28.5)(@utoo/pack@0.0.1-alpha.68(@types/webpack@5.28.5)(webpack@5.101.3))(lightningcss@1.22.1)(rollup@3.29.5)(sass@1.54.0)(terser@5.44.0)(type-fest@1.4.0)(typescript@5.9.2)(webpack@5.101.3)':
+  '@umijs/preset-umi@4.0.0-canary.20251110.1(@types/node@24.3.1)(@types/react@18.3.24)(@types/webpack@5.28.5)(@utoo/pack@0.0.1-alpha.70(@types/webpack@5.28.5)(webpack@5.101.3))(lightningcss@1.22.1)(rollup@3.29.5)(sass@1.54.0)(terser@5.44.0)(type-fest@1.4.0)(typescript@5.9.2)(webpack@5.101.3)':
     dependencies:
       '@iconify/utils': 2.1.1
       '@stagewise/toolbar': 0.6.2
@@ -8519,7 +8525,7 @@ snapshots:
       '@umijs/bundler-esbuild': 4.0.0-canary.20251110.1
       '@umijs/bundler-mako': 0.11.10(postcss@8.5.6)(sass@1.54.0)(typescript@5.9.2)(webpack@5.101.3)
       '@umijs/bundler-utils': 4.0.0-canary.20251110.1
-      '@umijs/bundler-utoopack': 4.0.0-canary.20251110.1(@types/webpack@5.28.5)(@utoo/pack@0.0.1-alpha.68(@types/webpack@5.28.5)(webpack@5.101.3))(type-fest@1.4.0)(typescript@5.9.2)(webpack@5.101.3)
+      '@umijs/bundler-utoopack': 4.0.0-canary.20251110.1(@types/webpack@5.28.5)(@utoo/pack@0.0.1-alpha.70(@types/webpack@5.28.5)(webpack@5.101.3))(type-fest@1.4.0)(typescript@5.9.2)(webpack@5.101.3)
       '@umijs/bundler-vite': 4.0.0-canary.20251110.1(@types/node@24.3.1)(lightningcss@1.22.1)(postcss@8.5.6)(rollup@3.29.5)(sass@1.54.0)(terser@5.44.0)
       '@umijs/bundler-webpack': 4.0.0-canary.20251110.1(@types/webpack@5.28.5)(type-fest@1.4.0)(typescript@5.9.2)(webpack@5.101.3)
       '@umijs/core': 4.0.0-canary.20251110.1
@@ -8651,22 +8657,22 @@ snapshots:
 
   '@umijs/zod2ts@4.0.0-canary.20251110.1': {}
 
-  '@utoo/pack-darwin-arm64@0.0.1-alpha.68':
+  '@utoo/pack-darwin-arm64@0.0.1-alpha.70':
     optional: true
 
-  '@utoo/pack-darwin-x64@0.0.1-alpha.68':
+  '@utoo/pack-darwin-x64@0.0.1-alpha.70':
     optional: true
 
-  '@utoo/pack-linux-arm64-gnu@0.0.1-alpha.68':
+  '@utoo/pack-linux-arm64-gnu@0.0.1-alpha.70':
     optional: true
 
-  '@utoo/pack-linux-arm64-musl@0.0.1-alpha.68':
+  '@utoo/pack-linux-arm64-musl@0.0.1-alpha.70':
     optional: true
 
-  '@utoo/pack-linux-x64-gnu@0.0.1-alpha.68':
+  '@utoo/pack-linux-x64-gnu@0.0.1-alpha.70':
     optional: true
 
-  '@utoo/pack-linux-x64-musl@0.0.1-alpha.68':
+  '@utoo/pack-linux-x64-musl@0.0.1-alpha.70':
     optional: true
 
   '@utoo/pack-shared@0.0.7':
@@ -8674,10 +8680,10 @@ snapshots:
       '@babel/code-frame': 7.22.5
       picocolors: 1.1.1
 
-  '@utoo/pack-win32-x64-msvc@0.0.1-alpha.68':
+  '@utoo/pack-win32-x64-msvc@0.0.1-alpha.70':
     optional: true
 
-  '@utoo/pack@0.0.1-alpha.68(@types/webpack@5.28.5)(webpack@5.101.3)':
+  '@utoo/pack@0.0.1-alpha.70(@types/webpack@5.28.5)(webpack@5.101.3)':
     dependencies:
       '@babel/code-frame': 7.22.5
       '@swc/helpers': 0.5.15
@@ -8697,13 +8703,13 @@ snapshots:
       send: 0.17.1
       ws: 8.18.3
     optionalDependencies:
-      '@utoo/pack-darwin-arm64': 0.0.1-alpha.68
-      '@utoo/pack-darwin-x64': 0.0.1-alpha.68
-      '@utoo/pack-linux-arm64-gnu': 0.0.1-alpha.68
-      '@utoo/pack-linux-arm64-musl': 0.0.1-alpha.68
-      '@utoo/pack-linux-x64-gnu': 0.0.1-alpha.68
-      '@utoo/pack-linux-x64-musl': 0.0.1-alpha.68
-      '@utoo/pack-win32-x64-msvc': 0.0.1-alpha.68
+      '@utoo/pack-darwin-arm64': 0.0.1-alpha.70
+      '@utoo/pack-darwin-x64': 0.0.1-alpha.70
+      '@utoo/pack-linux-arm64-gnu': 0.0.1-alpha.70
+      '@utoo/pack-linux-arm64-musl': 0.0.1-alpha.70
+      '@utoo/pack-linux-x64-gnu': 0.0.1-alpha.70
+      '@utoo/pack-linux-x64-musl': 0.0.1-alpha.70
+      '@utoo/pack-win32-x64-msvc': 0.0.1-alpha.70
     transitivePeerDependencies:
       - '@rspack/core'
       - bufferutil
@@ -10586,6 +10592,8 @@ snapshots:
   git-hooks-list@3.2.0: {}
 
   git-hooks-list@4.1.1: {}
+
+  github-markdown-css@4.0.0: {}
 
   glob-parent@5.1.2:
     dependencies:
@@ -13921,14 +13929,14 @@ snapshots:
 
   typescript@5.9.2: {}
 
-  umi@4.0.0-canary.20251110.1(@babel/core@7.28.4)(@types/node@24.3.1)(@types/react@18.3.24)(@types/webpack@5.28.5)(@utoo/pack@0.0.1-alpha.68(@types/webpack@5.28.5)(webpack@5.101.3))(eslint@8.35.0)(lightningcss@1.22.1)(prettier@2.8.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.29.5)(sass@1.54.0)(stylelint@14.8.2)(terser@5.44.0)(type-fest@1.4.0)(typescript@5.9.2)(webpack@5.101.3):
+  umi@4.0.0-canary.20251110.1(@babel/core@7.28.4)(@types/node@24.3.1)(@types/react@18.3.24)(@types/webpack@5.28.5)(@utoo/pack@0.0.1-alpha.70(@types/webpack@5.28.5)(webpack@5.101.3))(eslint@8.35.0)(lightningcss@1.22.1)(prettier@2.8.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.29.5)(sass@1.54.0)(stylelint@14.8.2)(terser@5.44.0)(type-fest@1.4.0)(typescript@5.9.2)(webpack@5.101.3):
     dependencies:
       '@babel/runtime': 7.23.6
       '@umijs/bundler-utils': 4.0.0-canary.20251110.1
       '@umijs/bundler-webpack': 4.0.0-canary.20251110.1(@types/webpack@5.28.5)(type-fest@1.4.0)(typescript@5.9.2)(webpack@5.101.3)
       '@umijs/core': 4.0.0-canary.20251110.1
       '@umijs/lint': 4.0.0-canary.20251110.1(eslint@8.35.0)(stylelint@14.8.2)(typescript@5.9.2)
-      '@umijs/preset-umi': 4.0.0-canary.20251110.1(@types/node@24.3.1)(@types/react@18.3.24)(@types/webpack@5.28.5)(@utoo/pack@0.0.1-alpha.68(@types/webpack@5.28.5)(webpack@5.101.3))(lightningcss@1.22.1)(rollup@3.29.5)(sass@1.54.0)(terser@5.44.0)(type-fest@1.4.0)(typescript@5.9.2)(webpack@5.101.3)
+      '@umijs/preset-umi': 4.0.0-canary.20251110.1(@types/node@24.3.1)(@types/react@18.3.24)(@types/webpack@5.28.5)(@utoo/pack@0.0.1-alpha.70(@types/webpack@5.28.5)(webpack@5.101.3))(lightningcss@1.22.1)(rollup@3.29.5)(sass@1.54.0)(terser@5.44.0)(type-fest@1.4.0)(typescript@5.9.2)(webpack@5.101.3)
       '@umijs/renderer-react': 4.0.0-canary.20251110.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@umijs/server': 4.0.0-canary.20251110.1
       '@umijs/test': 4.0.0-canary.20251110.1(@babel/core@7.28.4)
