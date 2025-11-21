@@ -7,6 +7,9 @@ import { useModel } from '@umijs/max';
 // import path from 'path';
 // import { z } from 'test-z';
 import './index.less';
+import type { Args } from './types';
+
+export type { Args };
 
 // z
 export * from './type.d';
