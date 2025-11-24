@@ -1,3 +1,7 @@
+import type { A } from './types';
+
+export { A };
+
 import Guide from '@/components/Guide';
 import { trim } from '@/utils/format';
 import { PageContainer } from '@ant-design/pro-components';
@@ -7,9 +11,6 @@ import { useModel } from '@umijs/max';
 // import path from 'path';
 // import { z } from 'test-z';
 import './index.less';
-import type { Args } from './types';
-
-export type { Args };
 
 // z
 export * from './type.d';

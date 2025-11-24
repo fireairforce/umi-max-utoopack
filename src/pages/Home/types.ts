@@ -1,3 +1,3 @@
-export interface Args {
+export interface A {
   [key: string]: any;
 }
