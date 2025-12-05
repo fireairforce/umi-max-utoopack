@@ -5,6 +5,7 @@ export { A };
 import Guide from '@/components/Guide';
 import { trim } from '@/utils/format';
 import { PageContainer } from '@ant-design/pro-components';
+import { HomeIcon } from '@radix-ui/react-icons';
 import { useModel } from '@umijs/max';
 import { util } from './util';
 // import './global2.less';
@@ -27,6 +28,7 @@ const HomePage: React.FC = () => {
   const { name } = useModel('global');
   return (
     <PageContainer ghost>
+      <HomeIcon />
       <div className="ant-checkbox-wrapper">test style</div>
       <div className="ant-menu">test style2</div>
       <div>{util}</div>
