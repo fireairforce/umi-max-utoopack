@@ -12,6 +12,7 @@ import { util } from './util';
 // import styles from './index.less';
 // import path from 'path';
 // import { z } from 'test-z';
+import 'antd/lib/config-provider/style/index.js';
 import './index.less';
 
 // z
