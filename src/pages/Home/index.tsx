@@ -17,6 +17,12 @@ import './index.less';
 // z
 export * from './type.d';
 
+const isCI = process.env.CI;
+
+isCI;
+
+console.log('isCI', isCI);
+
 // export function loadStat(name: string) {
 //   return require(require.resolve(path.join(name, 'package.json')))
 // }

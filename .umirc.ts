@@ -9,6 +9,9 @@ export default defineConfig({
   layout: {
     title: '@umijs/max',
   },
+  define: {
+    'process.env.CI': JSON.stringify(process.env.CI),
+  },
   alias: {},
   routes: [
     {
@@ -33,5 +36,4 @@ export default defineConfig({
   ],
   npmClient: 'pnpm',
   utoopack: {},
-  // mako: {},
 });
