@@ -19,6 +19,8 @@ export * from './type.d';
 
 const isCI = process.env.CI;
 
+console.log('process.env.NODE_ENV', process.env.NODE_ENV);
+
 isCI;
 
 console.log('isCI', isCI);
