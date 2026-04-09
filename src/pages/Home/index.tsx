@@ -8,6 +8,7 @@ import { PageContainer } from '@ant-design/pro-components';
 import { HomeIcon } from '@radix-ui/react-icons';
 import { useModel } from '@umijs/max';
 import { util } from './util';
+import { useEffect } from 'react';
 // import './global2.less';
 // import styles from './index.less';
 // import path from 'path';
@@ -34,10 +35,17 @@ console.log('isCI', isCI);
 
 const HomePage: React.FC = () => {
   const { name } = useModel('global');
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const fetchData = () => {
+    console.log('2333');
+  };
   return (
     <PageContainer ghost>
       <HomeIcon />
-      <div className="ant-checkbox-wrapper">test style</div>
+      <div className="ant-checkbox-wrapper">test style1</div>
       <div className="ant-menu">test style2</div>
       <div>{util}</div>
       <div>

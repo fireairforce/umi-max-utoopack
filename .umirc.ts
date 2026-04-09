@@ -1,8 +1,5 @@
 import { defineConfig } from '@umijs/max';
 
-// @ts-ignore
-process.env.CI = true;
-
 export default defineConfig({
   antd: {},
   access: {},
@@ -11,9 +8,6 @@ export default defineConfig({
   request: {},
   layout: {
     title: '@umijs/max',
-  },
-  define: {
-    'process.env.CI': process.env.CI,
   },
   alias: {},
   routes: [
