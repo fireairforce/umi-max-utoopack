@@ -3,15 +3,15 @@
   "repository": "https://github.com/fireairforce/umi-max-utoopack.git",
   "author": "",
   "scripts": {
-    "build": "COMPRESS=none max build",
+    "build": "max build",
     "build:ci": "COMPRESS=none CI=true max build",
     "dev": "max dev",
     "format": "prettier --cache --write .",
     "postinstall": "max setup",
     "prepare": "husky",
+    "preview": "max preview",
     "setup": "max setup",
-    "start": "npm run dev",
-    "preview": "max preview"
+    "start": "npm run dev"
   },
   "dependencies": {
     "@ant-design/icons": "^5.6.1",
