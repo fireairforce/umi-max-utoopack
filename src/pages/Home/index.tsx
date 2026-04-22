@@ -14,6 +14,8 @@ import { useEffect } from 'react';
 // import path from 'path';
 // import { z } from 'test-z';
 import './index.less';
+import { Editor, Toolbar } from '@wangeditor/editor-for-react';
+
 
 // z
 export * from './type.d';
@@ -50,6 +52,10 @@ const HomePage: React.FC = () => {
       <div>{util}</div>
       <div>
         <Guide name={trim(name)} />
+        <Editor
+          mode="default"
+          style={{ height: 400 }}
+        />
       </div>
     </PageContainer>
   );
