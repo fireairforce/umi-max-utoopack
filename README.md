@@ -27,3 +27,20 @@ pnpx next internal trace .turbopack/.trace-turbopack
   }
 },
 ```
+
+## AntV G2Plot Canvas 运行时报错复现
+
+复现入口：`/antv-g2plot-canvas-repro`
+
+```bash
+pnpm install
+pnpm dev
+```
+
+打开 `http://localhost:8000/antv-g2plot-canvas-repro`。
+
+当前 demo 里 `@antv/g2plot@2.x` 会通过 `@antv/g2@4.x` 创建底层渲染器；同时 `package.json` 里的 `pnpm.overrides` 将 `@antv/g-canvas` 固定到 `2.2.0`。`@antv/g-canvas@2.x` 不再导出旧版 `Canvas` 构造器，因此页面运行时会报：
+
+```text
+TypeError: tt(...).Canvas is not a constructor
+```

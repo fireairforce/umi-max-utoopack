@@ -30,7 +30,13 @@ export default defineConfig({
       path: '/table',
       component: './Table',
     },
+    {
+      name: 'AntV G2Plot Canvas 复现',
+      path: '/antv-g2plot-canvas-repro',
+      component: './AntvG2plotCanvasRepro',
+    },
   ],
   npmClient: 'pnpm',
   utoopack: {},
+  // mako: {}
 });
