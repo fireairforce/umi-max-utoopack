@@ -14,8 +14,10 @@ import { useEffect } from 'react';
 // import path from 'path';
 // import { z } from 'test-z';
 import './index.less';
-import { Editor, Toolbar } from '@wangeditor/editor-for-react';
+import { Editor } from '@wangeditor/editor-for-react';
+import { DF_NODE_TYPE } from './re-export';
 
+console.log(DF_NODE_TYPE.ExclusiveGateway);
 
 // z
 export * from './type.d';
