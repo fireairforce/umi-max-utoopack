@@ -19,6 +19,8 @@ import { DF_NODE_TYPE } from './re-export';
 
 console.log(DF_NODE_TYPE.ExclusiveGateway);
 
+console.log('ROUTE_PATH', RoutePathEnum.INDEX === '/')
+
 // z
 export * from './type.d';
 
@@ -39,13 +41,13 @@ console.log('isCI', isCI);
 
 const HomePage: React.FC = () => {
   const { name } = useModel('global');
-  useEffect(() => {
-    fetchData();
-  }, []);
+  // useEffect(() => {
+  //   fetchData();
+  // }, []);
 
-  const fetchData = () => {
-    console.log('2333');
-  };
+  // const fetchData = () => {
+  //   console.log('2333');
+  // };
   return (
     <PageContainer ghost>
       <HomeIcon />

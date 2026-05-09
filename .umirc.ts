@@ -1,4 +1,5 @@
 import { defineConfig } from '@umijs/max';
+import { RoutePathEnum } from './routes';
 
 export default defineConfig({
   antd: {},
@@ -6,6 +7,9 @@ export default defineConfig({
   model: {},
   initialState: {},
   request: {},
+  define: {
+    RoutePathEnum: RoutePathEnum,
+  },
   layout: {
     title: '@umijs/max',
   },
