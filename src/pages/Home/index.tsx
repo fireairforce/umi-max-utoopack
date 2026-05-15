@@ -16,8 +16,10 @@ import { useEffect } from 'react';
 import './index.less';
 import { Editor } from '@wangeditor/editor-for-react';
 import { DF_NODE_TYPE } from './re-export';
+import { value } from './barrel-reexport-enum';
 
 console.log(DF_NODE_TYPE.ExclusiveGateway);
+console.log('barrel reexport enum value', value);
 
 console.log('ROUTE_PATH', RoutePathEnum.INDEX === '/')
 
