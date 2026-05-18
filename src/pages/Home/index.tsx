@@ -52,7 +52,7 @@ const HomePage: React.FC = () => {
     <PageContainer ghost>
       <HomeIcon />
       <div className="ant-checkbox-wrapper">test style1</div>
-      <div className="ant-menu">test style2</div>
+      <div className="ant-menu layoutContainer">test style2</div>
       <div>{util}</div>
       <div>
         <Guide name={trim(name)} />
