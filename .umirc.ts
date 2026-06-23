@@ -42,5 +42,5 @@ export default defineConfig({
   ],
   npmClient: 'pnpm',
   utoopack: {},
-  // mako: {}
+  valtio: {}
 });

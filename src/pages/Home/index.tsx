@@ -16,6 +16,11 @@ import { useEffect } from 'react';
 import './index.less';
 import { Editor } from '@wangeditor/editor-for-react';
 import { DF_NODE_TYPE } from './re-export';
+import { proxy } from '@umijs/max';
+
+const state = proxy({ ok: true });
+
+console.log('state', state);
 
 console.log(DF_NODE_TYPE.ExclusiveGateway);
 
