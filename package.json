@@ -37,7 +37,7 @@
   },
   "pnpm": {
     "overrides": {
-      "@utoo/pack": "1.4.17-alpha.1"
+      "@utoo/pack": "1.4.17-alpha.2"
     }
   }
 }
